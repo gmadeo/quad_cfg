@@ -1,0 +1,180 @@
+[root@HRAC324E ~]# while true; do ping -c 1 1.1.1.1|grep -e loss -e time; date;sleep 1; done |tee ping.log |grep -C 2 100
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sat Jan  5 22:14:50 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sat Jan  5 22:15:01 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sat Jan  5 22:43:53 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sat Jan  5 22:44:04 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 12ms
+Sat Jan  5 23:21:29 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sat Jan  5 23:21:40 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 12ms
+Sat Jan  5 23:39:13 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sat Jan  5 23:39:24 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sat Jan  5 23:43:25 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sat Jan  5 23:43:36 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 12ms
+Sun Jan  6 01:25:17 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 01:25:28 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 01:40:00 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 01:40:11 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 01:46:22 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 01:46:33 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 01:49:55 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 01:50:06 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 02:27:39 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 02:27:50 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 02:38:40 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 02:38:51 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 02:42:13 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 02:42:24 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 03:39:11 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 03:39:22 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 03:46:31 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 03:46:43 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 03:57:00 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 03:57:11 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=14.5 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 13ms
+Sun Jan  6 04:03:10 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 04:03:21 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=12.0 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 04:27:14 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 04:27:25 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 05:34:53 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 05:35:05 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 05:36:26 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 05:36:37 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 09:10:48 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 09:11:00 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 09:44:54 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 09:45:05 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=15.0 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 09:47:23 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 09:47:34 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 09:54:22 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 09:54:33 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 10:39:04 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 10:39:15 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=16.5 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 11:26:52 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 11:27:03 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 11:32:12 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 11:32:23 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=14.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 11:51:37 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 11:51:48 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.8 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 13ms
+Sun Jan  6 12:00:14 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 12:00:25 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 12:10:52 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 12:11:03 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=12.1 ms
+--
+1 packets transmitted, 1 received, 0% packet loss, time 11ms
+Sun Jan  6 14:07:26 EST 2019
+1 packets transmitted, 0 received, 100% packet loss, time 10000ms
+Sun Jan  6 14:07:38 EST 2019
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=11.9 ms
